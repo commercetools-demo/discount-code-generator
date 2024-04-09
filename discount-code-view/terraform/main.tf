@@ -26,7 +26,7 @@ resource "vercel_project" "discount-code-generator" {
     #sad but true, you will need to fork it into your private github org.
     repo = "phofmann/discount-code-generator"
   }
-  root_directory = "discount-code-app"
+  root_directory = "discount-code-view"
   build_command    = "yarn build"
   output_directory = "public"
   environment = [{
